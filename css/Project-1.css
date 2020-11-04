@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+section {
+  padding: 80px 0px;
+  overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* start header*/
+/* start header*/
+/* start header*/
+
+
+
+.topbarmain {
+    background: #f5f5f5;
+}
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+
+}
+.topbarwrapper {
+  overflow: hidden;
+
+}
+
+.phone {
+  margin-left: 32px;
+  width: 178px;
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  border-left: 1px solid rgb(206 198 198 / 44%);
+  padding: 10px 15px;
+}
+
+
+.phone i {
+    color: #ff0000;
+    font-size: 14px;
+    padding-right: 5px;
+
+
+
+}
+.email {
+    width: 500px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    border-left: 1px solid rgb(206 198 198 / 44%);
+    padding: 10px 15px;
+
+
+}
+.email i {
+    color: #ff0000;
+    font-size: 14px;
+    padding-right: 5px;
+
+}
+.social {
+  width: 197px;
+  float: right;
+  font-size: 15px;
+  padding: 10px 3px;
+
+
+}
+.social a {
+
+    font-size: 15px;
+    color: black;
+    padding: 15px 15px;
+    border-left: 1px solid rgb(206 198 198 / 44%);
+}
+.social a:last-child {
+   border-right: 1px solid rgb(206 198 198 / 44%);
+}
+.social a:hover {
+  color: red;
+  transition: .3s;
+}
+
+/* end header*/
+
+
+
+
+/* start primarymeny*/
+.primarymenu {
+  padding: 0px 0px;
+  overflow: hidden;
+
+}
+nav {
+  overflow: hidden;
+  
+}
+nav.uk-sticky-fixed {
+  background-color: #f06907;
+  z-index: 999;
+ 
+}
+nav.uk-sticky-fixed ul.mainmenuitems li a:hover{
+  color: white; 
+}
+
+
+
+
+.menuwrapper{
+    overflow: hidden;
+    display: 100%;
+    margin-left: 31px;
+
+
+}
+.logo {
+    width: 150px;
+    float: left;
+
+}
+.logo img{
+  padding: 15px 0px;
+}
+.menu {
+    width: 910px;
+    float: left;
+}
+ul.mainmenuitems {
+    list-style: none;
+    float: right;
+}
+ul.mainmenuitems li {
+    float: left;
+}
+ul.mainmenuitems li a{
+
+  color: black;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  display: block;
+  padding: 30px 13px;
+  letter-spacing: 0.6;
+
+
+}
+ul.mainmenuitems li i{
+  margin-left: 5px;
+
+}
+
+.search i {
+  font-size: 16px;  
+}
+ul.mainmenuitems li a:hover{
+  color: red;
+  transition: .3s;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+
+/* end primarymeny*/
+
+
+
+
+/* start homeslider*/
+/* start homeslider*/
+/* start homeslider*/
+#homeslider{
+  background: url(../img/slide-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.slidercontain{
+  padding: 80px 0px;
+  width: 505px;
+  color: white;
+  margin-left: 40px;
+}
+.slidercontain h1{
+  text-transform: uppercase;
+  margin-top: 35px;
+    font-size: 50px;
+  line-height: 68px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.slidercontain p{
+    width: 470px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.slidderbotton{
+    background: #ff5200;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    border-color: #ff5200;
+}
+.slidderbotton:hover{
+  background: #000;
+  color: white;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.slidernavi {
+  width: 200px;
+  margin: auto;
+  position: relative;
+  margin-top: -30px;
+  margin-left: 549px;
+}
+
+.slidernavi span {
+
+    width: 9px;
+    height: 9px;
+    float: left;
+    border: 3px solid #dbdbdb;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.slidernavi span:first-child{
+
+    width: 9px;
+    height: 9px;
+    float: left;
+    border: 3px solid red;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 5px;
+    background: red;
+}
+
+/* end homeslider*/
+/* end homeslider*/
+/* end homeslider*/
+/* end homeslider*/
+
+/* start swiper-container*/
+/* start swiper-container*/
+/* start swiper-container*/
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+ 
+  
+}
+.swiper-container .slidercontain {
+  margin-top: 100px;
+}
+
+
+
+/* end swiper-container*/
+/* end swiper-container*/
+/* end swiper-container*/
+/* end swiper-container*/
+/* start service*/
+
+#service{
+    background: #faf2f2e8;
+  }
+
+.boxwrapper {
+      overflow: hidden;
+  }
+.singlebox {
+
+  width: 245px;
+    background: white;
+    text-align: center;
+    padding: 40px 0px;
+    margin-right: -8px;
+    float: left;
+    margin-left: 35px;
+    border-radius: 3px;
+    box-shadow: 1px 4px 5px 0px black;
+
+}
+.singlebox:last-child {
+      margin-right: 0px;
+}
+
+.boxicon {
+      font-size: 45px;
+      color: #ff5200;
+      padding: 15px 0px;
+  }
+  .boxtitle h2{
+  width: 226px;
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.boxdes {
+    margin: auto;
+    color: #00000096;
+    width: 250px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.boxlink a {
+    text-decoration: none;
+    color: #ff5200;
+
+}
+.boxlink {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.singlebox:hover{
+  background: #ff5200;
+}
+.singlebox:hover .boxicon i{color: white;}
+.singlebox:hover .boxtitle h2{color: white;}
+.singlebox:hover .boxdes p{color: white;}
+.singlebox:hover .boxlink a{color: white;}
+.singlebox:hover .boxlink i{color: white;}
+
+.metabox{background: #ff5200;}
+.metabox .boxicon i{color: white;}
+.metabox .boxtitle h2{color: white;}
+.metabox .boxdes p{color: white;}
+.metabox .boxlink a{color: white;}
+
+
+
+
+
+/* end service*/
+
+
+/* start workourteam*/
+.teamcontent {
+    overflow: hidden;
+}
+
+.teamimage {
+
+    width: 500px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 34px;
+}
+
+
+.teamimage img {
+    width: 98%;
+}
+
+.teamdetails {
+    width: 550px;
+    float: left;
+}
+
+
+
+.titledes h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.titledes p {
+    color: #0000009c;
+    line-height: 27px;
+}
+
+.titledes {
+    margin-bottom: 10px;
+}
+
+
+ul.leftfacelites {
+    width: 260px;
+    float: left;
+    line-height: 36px;
+}
+ul.leftfacelites i {
+    padding-right: 10px;
+    color: red;
+}
+
+ul.rightfacelites {
+    width: 260px;
+    float: left;
+    line-height: 36px;
+}
+ul.rightfacelites i {
+    padding-right: 10px;
+    color: red;
+}
+.titlfacelites ul li {
+    list-style: none;
+}
+
+.titlbutton button{
+  background: #ff5200;
+color: white;
+padding: 9px 27px;
+border-radius: 4px;
+border-style: none;
+font-size: 16px;
+font-weight: 500;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+border-color: #ff5200;
+margin-top: 25px;
+}
+.titlbutton button:hover{
+  background: #000;
+  color: white;
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+/* end workourteam*/
+
+
+/* start whychous*/
+#whychous{
+  background: linear-gradient(#0000006b,#000000bf),url(../img/why-choose-us1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.iconwrapper {
+    overflow: hidden;
+}
+
+.singleicon {
+    width: 270px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 35px 0px;
+}
+.singleicon i{
+  font-size: 50px;
+}
+.singleicon h1 {
+    font-size: 50px;
+}
+
+.singleicon h3 {
+  width: 255px;
+font-size: 19px;
+font-weight: 600;
+}
+.singleicon:first-child{
+  margin-left: 30px;
+}
+
+
+/* end whychous*/
+
+
+/* start MOREFROMUS*/
+#MOREFROMUS{
+  background: #f1f1f1;
+}
+.morotitle{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.morotitle h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.morotitle h1:after{
+  position: absolute;
+  content: '';
+  width: 68px;
+  height: 3px;
+  background: #ff6a00;
+  bottom: -4px;
+  left: 535px;
+}
+
+.morotitle p {
+    width: 520px;
+    margin: auto;
+    line-height: 29px;
+    color: #0000009c;
+}
+
+.picboxwrapper{
+  overflow: hidden;
+}
+.singlepicbox{
+  width: 260px;
+  float: left;
+  margin-right: 30px;
+}
+.singlepicbox:last-child{
+   margin-right: 0px;
+}
+.singlepicbox img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* end MOREFROMUS*/
